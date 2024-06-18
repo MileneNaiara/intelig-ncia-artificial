@@ -4,10 +4,23 @@ const caixaAlternativas = document.querySelector('.caixa-alternativas');
 const caixaResultados = document.querySelector('.caixa-resultados');
 const textoResultado = document.querySelector('.texto-resultado');
 const lista = [item1, item2]
-const perguntas = []
-const lapis = {
-   tamanho: 20,
-   tipo: 'HB',
-   cor: 'Grafite',
-   temBorrachaAtras: false
+const perguntas = [
+   {
+      anunciado:"Pergunta 1",
+      alternativas:["Alternativa1", "Alternativa 2"],
+   },
+   {
+      anunciado:"Pergunta 2",
+      alternativas:["Alternativa 1", "Alternativa 2"],
+   },
+   {
+      anunciado:"Pergunta 3",
+      alternativas:["Alternativa 1", "Alternativa 2"],
+   },
+];
+const lápis-lazúli = {
+   tamanho:20,
+   tipo:'HB',
+   cor:'Grafite',
+   temBorrachaAtras:falso
 }
