@@ -7,7 +7,7 @@ const lista = [item1, item2]
 const perguntas = [
    {
       anunciado:"Pergunta 1",
-      alternativas:["Alternativa1", "Alternativa 2"],
+      alternativas:["Alternativa 1", "Alternativa 2"],
    },
    {
       anunciado:"Pergunta 2",
@@ -18,9 +18,9 @@ const perguntas = [
       alternativas:["Alternativa 1", "Alternativa 2"],
    },
 ];
-const lápis-lazúli = {
-   tamanho:20,
-   tipo:'HB',
-   cor:'Grafite',
-   temBorrachaAtras:falso
-}
+const lapis = {
+   tamanho: 20,
+   tipo: 'HB',
+   cor: 'Grafite',
+   temBorrachaAtras: false
+ }
