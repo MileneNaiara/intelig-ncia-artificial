@@ -6,17 +6,17 @@ const textoResultado = document.querySelector('.texto-resultado');
 const lista = [item1, item2]
 const perguntas = [
    {
-      anunciado:"Pergunta 1",
-      alternativas:["Alternativa 1", "Alternativa 2"],
-   },
-   {
-      anunciado:"Pergunta 2",
-      alternativas:["Alternativa 1", "Alternativa 2"],
-   },
-   {
-      anunciado:"Pergunta 3",
-      alternativas:["Alternativa 1", "Alternativa 2"],
-   },
+      enunciado: "Pergunta 1",
+      alternativas: ["Alternativa 1", "Alternativa 2"],
+  },
+  {
+      enunciado: "Pergunta 2",
+      alternativas: ["Alternativa 1", "Alternativa 2"],
+  },
+  {
+      enunciado: "Pergunta 3",
+      alternativas: ["Alternativa 1", "Alternativa 2"],
+  },
 ];
 const lapis = {
    tamanho: 20,
