@@ -28,8 +28,8 @@ const perguntas = [
         {
          texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
          afirmação: "Afirmação 2"
-        },
-        ],
+        }
+        ]
   },
   {
       enunciado: "Depois que Gabriel escreveu o trabalho, teve uma discussão sobre o impacto da IA no trabalho do futuro o que Gabriel faz:",
@@ -41,7 +41,7 @@ const perguntas = [
         {
          texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
          afirmação: "Afirmação 2"
-        },
+        }
         ],
   },
   {
@@ -50,11 +50,11 @@ const perguntas = [
         {
         texto: "Criar uma imagem utilizando um gerador de imagem de IA.", 
         afirmação: "Afirmação 1"
-        },
+        }
         {
         texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
         afirmação: "Afirmação 2"
-        },
+        }
     ],
   },
 ];
