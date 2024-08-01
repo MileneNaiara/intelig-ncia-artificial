@@ -10,11 +10,17 @@ const perguntas = [
       alternativas: [
         {
          texto: "Isso é assustador!",
-         afirmação: "Afirmação 1"
+         afirmação: [
+          "No início, ficou com medo do que essa tecnologia pode fazer.",
+          "Achou assustador pensar na velocidade com que a tecnologia está avançando."
+         ]
         },
         {
          texto: "Isso é maravilhoso!",
-         afirmação: "Afirmação 2"
+         afirmação: [
+          "Quis saber como usar a IA no seu dia a dia.",
+            "Pensou que IA pode ajudar em tarefas da sua vida."  
+         ]     
         },
         ],
   },
@@ -23,11 +29,15 @@ const perguntas = [
       alternativas: [
         {
          texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-         afirmação: "Afirmação 1"
+         afirmação: [
+          "Afirmaçao 1"
+         ]
         },
         {
          texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-         afirmação: "Afirmação 2"
+         afirmação: [
+          "Afirmação 2"
+         ]
         }
         ]
   },
@@ -36,11 +46,15 @@ const perguntas = [
       alternativas: [
         {
          texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas",
-         afirmação: "Afirmação 1"
+         afirmação: [
+          "Afirmação 1"
+         ]
         },
         {
          texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-         afirmação: "Afirmação 2"
+         afirmação: [
+          "Afirmação 2"
+         ]
         }
         ],
   },
@@ -49,11 +63,15 @@ const perguntas = [
     alternativas:[
         {
         texto: "Criar uma imagem utilizando um gerador de imagem de IA.", 
-        afirmação: "Afirmação 1"
+        afirmação: [
+          "Afirmação 1"
+        ]
         }
         {
         texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-        afirmação: "Afirmação 2"
+        afirmação: [
+          "Afirmação 2"
+        ]
         }
     ],
   },
@@ -79,12 +97,11 @@ function mostraAlternativas(){
         botaoAlternativas.addEventListener("click", () =>
           respostaSelecionada(alternativa));
           function respostaSelecionada (opcaoSelecionada){
-            const afirmacoes = opcaoSelecionada.afirmacao;
+            const afirmacoes = opcaoSelecionada.afirmação;
             historiaFinal += afirmacoes + "";
             atual++;
             mostraPergunta();
-          }
-        );
+          };
         caixaAlternativas.appendChild(botaoAlternativas);
     }
 }
