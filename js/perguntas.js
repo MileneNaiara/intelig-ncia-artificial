@@ -3,23 +3,24 @@ export const perguntas = [
         enunciado: "Você estava usando suas redes sociais e se deparou com uma notícia. Uma grande quantidade de animais estão morrendo devido à quantidade demasiada de lixo nos oceanos. Diante de uma situação como essa, o que você faria?",
         alternativas: [
             {
-                texto: "Buscaria conhecer mais sobre o mundo marinho.",
+                texto: "Ignoraria, pois não tenho interesse e muito enos responsabilidade sobre isso.",
                 afirmacao: [
-                    "Achou muito interessante e gostou de aprender sobre um novo assunto. "
+                    "Na verdade todos temos responsabilidade, até mesmo em relação ao lixo de nossas casas, se está sendo descartado corretamente, ou se você joga até mesmo que uma pequena casca de doce na rua ao invés de colocar no lixo. Pequenas atitudes fazem toda a diferença e não devem ser ignoradas, já que, de pouco em pouco vira em muito."
                 ],
                 proxima: 1,
                 },
             {
                 texto: "Buscaria conhecer mais sobre o mundo marinho e quais os principais problemas que o afetam.",
                 afirmacao: [
-                    "Achou muito interessaante e além de gostar do assunto, buscou saber como poderia ajudar na causa do problema."
+                    "Achou muito interessaante e além de gostar do assunto, buscou saber como poderia ajudar na causa do problema, pois a diferença começa em pequenas atitudes."
                 ],
                 proxima: 2,
                 }
         ]
+
     },
     {
-        enunciado: "Após pesquisar sobre o tema, ",
+        enunciado: "Após pesquisar sobre o tema,  ",
         alternativas: [
             {
                 texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
