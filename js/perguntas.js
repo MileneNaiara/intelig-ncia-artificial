@@ -1,6 +1,6 @@
 export const perguntas = [
     {
-        enunciado: "Você estava usando suas redes sociais e se deparou com uma notícia. Uma grande quantidade de animais estão morrendo devido a quantidade demasiada de lixo nos oceanos. Diante de uma situação como essa, o que você faria?",
+        enunciado: "Você estava usando suas redes sociais e se deparou com uma notícia. Uma grande quantidade de animais estão morrendo devido à quantidade demasiada de lixo nos oceanos. Diante de uma situação como essa, o que você faria?",
         alternativas: [
             {
                 texto: "Buscaria conhecer mais sobre o mundo marinho.",
