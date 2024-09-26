@@ -25,6 +25,7 @@ function iniciaJogo () {
     mostraPergunta();
 }
 
+>>>>>>> eddf32dc877e39ca10bcb183e21f0f2884713993
 function mostraPergunta() {
   if (atual >= perguntas.length) {
     mostraResultado();
@@ -43,9 +44,14 @@ function mostraAlternativas() {
         botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));  
         caixaAlternativas.appendChild(botaoAlternativas);
     }
-}
+function mostraAfirmacoes (){
+     for(const afirmacoes of perguntaAtual.afirmacoes){
 
-function respostaSelecionada(opcaoSelecionada) {
+     }
+    }
+  }
+
+  function respostaSelecionada(opcaoSelecionada) {
   const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
   historiaFinal += afirmacoes + " ";
   if (opcaoSelecionada.proxima !== undefined) {
@@ -79,4 +85,3 @@ function substituiNome() {
 }
 
 substituiNome();
-mostraPergunta();
