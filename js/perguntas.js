@@ -3,7 +3,7 @@ export const perguntas = [
         enunciado: "Você estava usando suas redes sociais e se deparou com uma notícia. Uma grande quantidade de animais estão morrendo devido à quantidade demasiada de lixo nos oceanos. Diante de uma situação como essa, o que você faria?",
         alternativas: [
             {
-                texto: "Ignoraria, pois não tenho interesse e muito enos responsabilidade sobre isso.",
+                texto: "Pesquisaria sobre, mas ignoraria ajudar na causa, pois não possuo interesse e muito menos responsabilidade sobre isso.",
                 afirmacao: [
                     "Na verdade todos temos responsabilidade, até mesmo em relação ao lixo de nossas casas, se está sendo descartado corretamente, ou se você joga até mesmo que uma pequena casca de doce na rua ao invés de colocar no lixo. Pequenas atitudes fazem toda a diferença e não devem ser ignoradas, já que, de pouco em pouco vira em muito."
                 ],
@@ -12,53 +12,52 @@ export const perguntas = [
             {
                 texto: "Buscaria conhecer mais sobre o mundo marinho e quais os principais problemas que o afetam.",
                 afirmacao: [
-                    "Achou muito interessaante e além de gostar do assunto, buscou saber como poderia ajudar na causa do problema, pois a diferença começa em pequenas atitudes."
+                    "Ajudaria na causa do problema, pois a diferença começa em pequenas atitudes."
                 ],
                 proxima: 2,
                 }
         ]
-
     },
     {
-        enunciado: "Após pesquisar sobre o tema,  ",
+        enunciado: "Após pesquisar sobre o tema se sentiu impactado com a quantidade exorbitante de lixo que é despejados nos oceanos anualmente. O que você faria para tentar amenizar essa situação?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "Não faria nada, já que a atitude de mudança vindo apenas de uma pessoa não faz diferença alguma.",
                 afirmacao: [
-                    "Conseguiu utilizar a IA para buscar informações úteis."
+                    "Na verdade a partir de pequenas atitudes podemos ir melhorando aos poucos e mudando essa realidade, pois, se ninguém buscar fazer a diferença, de fato não mudará nada."
                 ],
                 proxima: 3,
                 },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Buscaria saber se existem políticas públicas para ajudar nessa causa.",
                 afirmacao: [
-                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                    "Políticas públicas são de extrema importância para alavancar a resolução do problema e proteger os animais marinhos de todo o lixo."
                 ],
                 proxima: 4,
                 }
         ]
     },
     {
-        enunciado: "Depois que você escreveu o trabalho, teve uma discussão sobre o impacto da IA no trabalho do futuro. O que você faz?",
+        enunciado: "Depois que você se depara com mais notícias de que o lixo está ameaçando a biodiversidade marinha e a saúde do ecossistema, além disso a poluição por plástico nos oceanos representa risco também à saúde humana devido aos resíduos tóxicos liberados. Você decide procurar uma maneira de enfrentar esse problema, o que você faz?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Busca tentar mobilizar mais pessoas sobre o tema, para juntas buscarem uma solução.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                    "Quanto mais pessoas ajudando, maior será a diferença."
                 ],
                 proxima: 5,
                 },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Busca por projetos que ajudam em prol da causa.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                    "Sua preocupação perante ao problema já é o início da diferença."
                 ],
                 proxima: 6,
                 }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Com sua",
         alternativas: [
             {
                 texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
